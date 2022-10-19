@@ -1108,14 +1108,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 725676070}
         m_TargetAssemblyTypeName: CalculadoraController, Assembly-CSharp
-        m_MethodName: HandleInsertValue
-        m_Mode: 1
+        m_MethodName: BtnCharacter
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 8
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &546691747
@@ -2144,7 +2144,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 725676070}
         m_TargetAssemblyTypeName: CalculadoraController, Assembly-CSharp
-        m_MethodName: HandleInsertValue
+        m_MethodName: ExpressionCalculator
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3000,14 +3000,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 725676070}
         m_TargetAssemblyTypeName: CalculadoraController, Assembly-CSharp
-        m_MethodName: HandleInsertValue
-        m_Mode: 1
+        m_MethodName: BtnCharacter
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 7
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1277606117
@@ -3825,14 +3825,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 725676070}
         m_TargetAssemblyTypeName: CalculadoraController, Assembly-CSharp
-        m_MethodName: HandleInsertValue
-        m_Mode: 1
+        m_MethodName: BtnCharacter
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 9
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1893918521
@@ -3959,14 +3959,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 725676070}
         m_TargetAssemblyTypeName: CalculadoraController, Assembly-CSharp
-        m_MethodName: HandleInsertValue
-        m_Mode: 1
+        m_MethodName: BtnCharacter
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: /
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1952228879
