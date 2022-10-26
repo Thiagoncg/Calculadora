@@ -962,7 +962,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.09019608, g: 0.09411765, b: 0.101960786, a: 0}
+  m_BackGroundColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1514,6 +1514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 725676071}
   - component: {fileID: 725676070}
+  - component: {fileID: 725676072}
   m_Layer: 0
   m_Name: CalculadoraController
   m_TagString: Untagged
@@ -1550,6 +1551,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &725676072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725676069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16bbc02a8554b844fa26970d12c51a3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackBackground: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 1}
+  numberBlue: {r: 0.14117648, g: 0.64705884, b: 1, a: 1}
+  buttomBlak: {r: 0.1137255, g: 0.1137255, b: 0.1137255, a: 1}
+  whiteBackground: {r: 1, g: 1, b: 1, a: 1}
+  font: []
+  spriteButtons: {fileID: 21300000, guid: c1d35158aa3dd564693ae9999c7c2bb5, type: 3}
+  myCamera: {fileID: 0}
 --- !u!1 &730650223
 GameObject:
   m_ObjectHideFlags: 0
@@ -4281,7 +4301,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 2060994858}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:

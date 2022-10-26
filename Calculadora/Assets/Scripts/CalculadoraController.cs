@@ -2,6 +2,7 @@ using System.Collections;
 using System.Data;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.UI;
 
 public class CalculadoraController : MonoBehaviour
@@ -15,6 +16,8 @@ public class CalculadoraController : MonoBehaviour
     {
         TextDisplayI.text = "";
         TextDisplayII.text = "";
+        Debug.Log("teste");
+        
     }
 
     public void BtnCharacter(string character)
