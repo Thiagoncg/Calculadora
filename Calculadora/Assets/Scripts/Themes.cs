@@ -26,6 +26,6 @@ public class Themes : MonoBehaviour
 
     public void ChoicecWhiteColor()
     {
-        
+        myCamera.backgroundColor = whiteBackground;
     }
 }
